@@ -1,20 +1,12 @@
 """
-Crear 5 variables con 5 notas numéricas y realizar 
-la media aritmética. Mostrar el resultado final con 
-un mensaje como este: "La nota media es 6.0"
+Busca en la documentación la forma correcta de redondear el siguiente resultado a tan solo 2 decimales: operacion = (365 / 12) * 14.7*
 """
-#Primero creamods las 5 variables notas:
-nota_1 = 6
-nota_2 = 7.25
-nota_3 = 8
-nota_4 = 3.5
-nota_5 = 5.75
 
-#Calculamos la media, usando una operacion muy basica que suma todas las notas y divide ese resultadp entre el numero de notas que hay, en este caso 5:
-media = (nota_1 + nota_2 + nota_3 + nota_4 + nota_5) / 5
+#Primero hacemos la operacion:
+operacion = (365 / 12) * 14.7
 
-#Printeamos la media:
-print("La nota media es", media)
+#Vamos a printear el resultado de la operacion, para ver todos los decimales que salen:
+print("El resultado de la operacion es", operacion)
 
-#Otra forma de printearlo:
-print(f"La nota media es {media}")
+#Ahora vamos a redondear el resultado de la operacion a 2 decimales (vamos a usar round() para redondearlo):
+print("El resultado de la operacion redondeado a 2 decimales es", round(operacion, 2))

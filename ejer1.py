@@ -1,7 +1,5 @@
 """
-Crear 5 variables con 5 notas numéricas y realizar 
-la media aritmética. Mostrar el resultado final con 
-un mensaje como este: "La nota media es 6.0"
+Crear 5 variables con 5 notas numéricas y realizar la media aritmética. Mostrar el resultado final con un mensaje como este: "La nota media es 6.0"
 """
 #Primero creamods las 5 variables notas:
 nota_1 = 6
